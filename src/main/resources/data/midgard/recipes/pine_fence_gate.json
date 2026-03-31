@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "&#&",
+    "&#&"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:pine_planks"
+    },
+    "&": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "midgard:pine_fence_gate"
+  }
+}

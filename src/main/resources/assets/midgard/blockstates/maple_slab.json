@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "midgard:block/maple/maple_slab"
+    },
+    "type=double": {
+      "model": "midgard:block/maple/maple_planks"
+    },
+    "type=top": {
+      "model": "midgard:block/maple/maple_slab_top"
+    }
+  }
+}

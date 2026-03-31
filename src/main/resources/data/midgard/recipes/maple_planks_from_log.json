@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "midgard:maple_log"
+    }
+  ],
+  "result": {
+    "item": "midgard:maple_planks",
+    "count": 4
+  }
+}

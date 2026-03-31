@@ -1,0 +1,117 @@
+{
+  "variants": {
+    "layers=1": [
+    {
+      "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height2_0"
+    },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height2_1"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height2_2"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height2_3"
+      }
+      ],
+    "layers=2": [
+    {
+      "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height4_0"
+    },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height4_1"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height4_2"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height4_3"
+      }
+      ],
+    "layers=3": [
+    {
+      "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height6_0"
+    },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height6_1"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height6_2"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height6_3"
+      }
+      ],
+    "layers=4": [
+    {
+      "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height8_0"
+    },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height8_1"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height8_2"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height8_3"
+      }
+
+      ],
+    "layers=5": [
+    {
+      "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height10_0"
+    },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height10_1"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height10_2"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height10_3"
+      }
+      ],
+    "layers=6": [
+    {
+      "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height12_0"
+    },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height12_1"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height12_2"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height12_3"
+      }
+      ],
+    "layers=7": [
+    {
+      "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height14_0"
+    },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height14_1"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height14_2"
+      },
+      {
+        "model": "midgard:block/autumnal_aspen_leaf_pile/autumnal_aspen_leaf_pile_height14_3"
+      }
+      ],
+    "layers=8": [
+    {
+      "model": "midgard:block/aspen/yellow_aspen_leaves_0"
+    },
+      {
+        "model": "midgard:block/aspen/yellow_aspen_leaves_1"
+      },
+      {
+        "model": "midgard:block/aspen/yellow_aspen_leaves_2"
+      },
+      {
+        "model": "midgard:block/aspen/yellow_aspen_leaves_3"
+      }
+    ]
+  }
+}

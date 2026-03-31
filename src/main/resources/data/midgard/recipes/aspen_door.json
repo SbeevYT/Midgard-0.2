@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:aspen_planks"
+    }
+  },
+  "result": {
+    "item": "midgard:aspen_door",
+    "count": 3
+  }
+}

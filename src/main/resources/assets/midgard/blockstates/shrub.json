@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "midgard:block/shrub_0"
+      },
+      {
+        "model": "midgard:block/shrub_1"
+      },
+      {
+        "model": "midgard:block/shrub_2"
+      }
+    ]
+  }
+}

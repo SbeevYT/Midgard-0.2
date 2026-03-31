@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "midgard:block/pine/fallen_needle_block_0"
+      },
+      {
+        "model": "midgard:block/pine/fallen_needle_block_1"
+      },
+      {
+        "model": "midgard:block/pine/fallen_needle_block_2"
+      },
+      {
+        "model": "midgard:block/pine/fallen_needle_block_3"
+      }
+    ]
+  }
+}

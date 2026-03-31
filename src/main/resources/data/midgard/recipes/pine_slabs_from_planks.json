@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:pine_planks"
+    }
+  },
+  "result": {
+    "item": "midgard:pine_slab",
+    "count": 6
+  }
+}

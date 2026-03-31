@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+      "model": "midgard:block/maple/maple_wood_0"
+      },
+      {
+      "model": "midgard:block/maple/maple_wood_0"
+      },
+      {
+        "model": "midgard:block/maple/maple_wood_1"
+      }
+    ]
+  }
+}

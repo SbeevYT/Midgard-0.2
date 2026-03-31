@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "midgard:block/palettes/fallen_needles_2"
+  }
+}

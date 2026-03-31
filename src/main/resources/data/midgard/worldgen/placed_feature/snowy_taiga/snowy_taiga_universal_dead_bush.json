@@ -1,0 +1,10 @@
+{
+    "feature": "midgard:universal_dead_bush",
+    "placement": [
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        }
+    ]
+
+}

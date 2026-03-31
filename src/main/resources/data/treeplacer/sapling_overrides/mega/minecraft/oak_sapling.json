@@ -1,0 +1,11 @@
+{
+  "replace": false,
+   "values": {
+      "treeplacer:all_biomes" : [
+         {
+            "feature" : "midgard:oak/huge_oak_tree_1",
+            "weight" : 1
+         }
+     ]
+   }
+}

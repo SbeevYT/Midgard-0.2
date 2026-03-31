@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:cherry_trunk"
+    }
+  },
+  "result": {
+    "item": "minecraft:cherry_log"
+  }
+}

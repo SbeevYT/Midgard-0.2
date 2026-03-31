@@ -1,0 +1,39 @@
+{
+  "values": [
+    "midgard:pine_log",
+    "midgard:pine_wood",
+    "midgard:stripped_pine_log",
+    "midgard:stripped_pine_wood",
+    "midgard:pine_trunk",
+
+    "midgard:aspen_log",
+    "midgard:aspen_wood",
+    "midgard:stripped_aspen_log",
+    "midgard:stripped_aspen_wood",
+    "midgard:aspen_trunk",
+
+    "midgard:maple_log",
+    "midgard:maple_wood",
+    "midgard:stripped_maple_log",
+    "midgard:stripped_maple_wood",
+    "midgard:maple_trunk",
+
+    "midgard:oak_trunk",
+    "midgard:birch_trunk",
+    "midgard:spruce_trunk",
+    "midgard:jungle_trunk",
+    "midgard:acacia_trunk",
+    "midgard:dark_oak_trunk",
+    "midgard:mangrove_trunk",
+    "midgard:cherry_trunk",
+
+    "midgard:stripped_oak_trunk",
+    "midgard:stripped_birch_trunk",
+    "midgard:stripped_spruce_trunk",
+    "midgard:stripped_jungle_trunk",
+    "midgard:stripped_acacia_trunk",
+    "midgard:stripped_dark_oak_trunk",
+    "midgard:stripped_mangrove_trunk",
+    "midgard:stripped_cherry_trunk"
+  ]
+}

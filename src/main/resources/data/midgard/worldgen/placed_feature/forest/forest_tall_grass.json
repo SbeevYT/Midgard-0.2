@@ -1,0 +1,10 @@
+{
+    "feature": "midgard:tall_grass",
+    "placement": [
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        }
+    ]
+
+}

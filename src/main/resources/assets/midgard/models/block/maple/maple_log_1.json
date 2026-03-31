@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "midgard:block/maple_log_top",
+    "side": "midgard:block/maple_log_1"
+  }
+}

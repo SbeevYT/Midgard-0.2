@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "result": {
+    "item": "midgard:jungle_trunk",
+    "count": 4
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "values": [
+    "midgard:white_sandstone_wall",
+
+    "midgard:pine_branch",
+    "midgard:pine_trunk",
+    "midgard:pine_leaves",
+
+    "midgard:aspen_branch",
+    "midgard:aspen_trunk",
+    "midgard:aspen_leaves",
+    "midgard:yellow_aspen_leaves",
+
+    "midgard:maple_branch",
+    "midgard:maple_trunk",
+    "midgard:maple_leaves",
+    "midgard:yellow_maple_leaves",
+    "midgard:orange_maple_leaves",
+    "midgard:red_maple_leaves",
+
+    "midgard:brown_oak_leaves",
+    "midgard:brown_aspen_leaves",
+    "midgard:brown_maple_leaves",
+    "midgard:fallen_needle_block",
+
+    "midgard:oak_trunk",
+    "midgard:oak_branch",
+    "midgard:birch_trunk",
+    "midgard:birch_branch",
+    "midgard:spruce_trunk",
+    "midgard:spruce_branch",
+    "midgard:jungle_trunk",
+    "midgard:jungle_branch",
+    "midgard:acacia_trunk",
+    "midgard:acacia_branch",
+    "midgard:dark_oak_trunk",
+    "midgard:dark_oak_branch",
+    "midgard:mangrove_trunk",
+    "midgard:mangrove_branch",
+    "midgard:cherry_trunk",
+    "midgard:cherry_branch",
+
+    "minecraft:oak_leaves",
+    "minecraft:birch_leaves",
+    "minecraft:spruce_leaves",
+    "minecraft:jungle_leaves",
+    "minecraft:acacia_leaves",
+    "minecraft:dark_oak_leaves",
+    "minecraft:mangrove_leaves",
+    "minecraft:cherry_leaves",
+
+    "midgard:stripped_pine_trunk",
+    "midgard:stripped_aspen_trunk",
+    "midgard:stripped_maple_trunk",
+    "midgard:stripped_oak_trunk",
+    "midgard:stripped_birch_trunk",
+    "midgard:stripped_spruce_trunk",
+    "midgard:stripped_jungle_trunk",
+    "midgard:stripped_acacia_trunk",
+    "midgard:stripped_dark_oak_trunk",
+    "midgard:stripped_mangrove_trunk",
+    "midgard:stripped_cherry_trunk"
+  ]
+}

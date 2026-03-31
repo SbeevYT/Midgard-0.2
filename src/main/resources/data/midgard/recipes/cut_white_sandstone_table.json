@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:white_sandstone"
+    }
+  },
+  "result": {
+    "item": "midgard:cut_white_sandstone",
+    "count": 4
+  }
+}

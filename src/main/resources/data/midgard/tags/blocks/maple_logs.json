@@ -1,0 +1,11 @@
+{
+  "values": [
+    "midgard:maple_log",
+    "midgard:maple_wood",
+    "midgard:stripped_maple_log",
+    "midgard:stripped_maple_wood",
+    "midgard:maple_trunk",
+    "midgard:stripped_maple_trunk",
+    "midgard:maple_branch"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:maple_log"
+    }
+  },
+  "result": {
+    "item": "midgard:maple_wood",
+    "count": 3
+  }
+}

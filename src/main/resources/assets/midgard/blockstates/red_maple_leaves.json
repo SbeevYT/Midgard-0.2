@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "midgard:block/maple/red_maple_leaves_0"
+      },
+      {
+        "model": "midgard:block/maple/red_maple_leaves_1"
+      },
+      {
+        "model": "midgard:block/maple/red_maple_leaves_2"
+      },
+      {
+        "model": "midgard:block/maple/red_maple_leaves_3"
+      }
+    ]
+  }
+}

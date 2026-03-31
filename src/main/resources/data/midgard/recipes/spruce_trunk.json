@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "result": {
+    "item": "midgard:spruce_trunk",
+    "count": 4
+  }
+}

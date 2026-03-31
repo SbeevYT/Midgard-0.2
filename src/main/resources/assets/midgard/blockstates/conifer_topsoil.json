@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "midgard:block/conifer_topsoil_0"
+      },
+      {
+        "model": "midgard:block/conifer_topsoil_1"
+      },
+      {
+        "model": "midgard:block/conifer_topsoil_2"
+      },
+      {
+        "model": "midgard:block/conifer_topsoil_3"
+      }
+    ]
+  }
+}

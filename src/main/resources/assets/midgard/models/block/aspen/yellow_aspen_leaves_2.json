@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "all": "midgard:block/palettes/yellow_aspen_leaves_2"
+  }
+}

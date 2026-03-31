@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:spruce_trunk"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_log"
+  }
+}

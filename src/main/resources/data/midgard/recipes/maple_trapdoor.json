@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:maple_planks"
+    }
+  },
+  "result": {
+    "item": "midgard:maple_trapdoor",
+    "count": 6
+  }
+}

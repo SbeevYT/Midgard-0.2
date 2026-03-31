@@ -1,0 +1,21 @@
+{
+  "values": [
+    "midgard:pine_leaves",
+    "midgard:aspen_leaves",
+    "midgard:yellow_aspen_leaves",
+    "midgard:maple_leaves",
+    "midgard:yellow_maple_leaves",
+    "midgard:orange_maple_leaves",
+    "midgard:red_maple_leaves",
+    "midgard:brown_oak_leaves",
+    "midgard:brown_aspen_leaves",
+    "midgard:brown_maple_leaves",
+    "midgard:fallen_needle_block",
+    "midgard:leaf_pile",
+    "midgard:aspen_leaf_pile",
+    "midgard:maple_leaf_pile",
+    "midgard:fallen_needles",
+    "midgard:autumnal_aspen_leaf_pile",
+    "midgard:autumnal_maple_leaf_pile"
+  ]
+}

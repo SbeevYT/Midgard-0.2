@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "midgard:block/cut_white_sandstone_slab"
+    },
+    "type=double": {
+      "model": "midgard:block/cut_white_sandstone"
+    },
+    "type=top": {
+      "model": "midgard:block/cut_white_sandstone_slab_top"
+    }
+  }
+}

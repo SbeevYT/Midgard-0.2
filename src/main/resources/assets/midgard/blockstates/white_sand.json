@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "midgard:block/white_sand_1"
+      },
+      {
+        "model": "midgard:block/white_sand_2"
+      },
+      {
+        "model": "midgard:block/white_sand_3"
+      }
+    ]
+  }
+}

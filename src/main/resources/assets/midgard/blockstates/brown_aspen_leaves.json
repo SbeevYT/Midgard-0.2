@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "midgard:block/aspen/brown_aspen_leaves_0"
+      },
+      {
+        "model": "midgard:block/aspen/brown_aspen_leaves_1"
+      },
+      {
+        "model": "midgard:block/aspen/brown_aspen_leaves_2"
+      },
+      {
+        "model": "midgard:block/aspen/brown_aspen_leaves_3"
+      }
+    ]
+  }
+}

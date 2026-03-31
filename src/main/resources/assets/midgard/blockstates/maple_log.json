@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "axis=x": [
+    {
+      "model": "midgard:block/maple/maple_log_horizontal_0",
+      "x": 90,
+      "y": 90
+    },
+      {
+        "model": "midgard:block/maple/maple_log_horizontal_1",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "midgard:block/maple/maple_log_horizontal_0",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+    {
+      "model": "midgard:block/maple/maple_log_0"
+    },
+      {
+        "model": "midgard:block/maple/maple_log_1"
+      },
+      {
+        "model": "midgard:block/maple/maple_log_0"
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "midgard:block/maple/maple_log_horizontal_0",
+        "x": 90
+      },
+      {
+        "model": "midgard:block/maple/maple_log_horizontal_1",
+        "x": 90
+      },
+      {
+        "model": "midgard:block/maple/maple_log_horizontal_0",
+        "x": 90
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+   "replace": false,
+   "values": {
+      "treeplacer:all_biomes" : [
+         {
+            "feature" : "midgard:red_maple/big_red_maple_tree_1",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:red_maple/big_red_maple_tree_2",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:red_maple/big_red_maple_tree_3",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:red_maple/big_red_maple_tree_4",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:red_maple/bushy_red_maple_tree_1",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:red_maple/bushy_red_maple_tree_2",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:red_maple/bushy_red_maple_tree_3",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:red_maple/bushy_red_maple_tree_4",
+            "weight" : 1
+         },
+         {
+           "feature" : "midgard:red_maple/medium_red_maple_tree_1",
+           "weight" : 1
+         },
+        {
+          "feature" : "midgard:red_maple/medium_red_maple_tree_2",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/medium_red_maple_tree_3",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/medium_red_maple_tree_4",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/shrubby_red_maple_tree_1",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/shrubby_red_maple_tree_2",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/shrubby_red_maple_tree_3",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/small_red_maple_tree_1",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/small_red_maple_tree_2",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/small_red_maple_tree_3",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/small_red_maple_tree_4",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/small_red_maple_tree_5",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/small_red_maple_tree_6",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:red_maple/small_red_maple_tree_7",
+          "weight" : 1
+        }
+      ]
+   }
+}

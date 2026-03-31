@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "midgard:block/aspen/aspen_pressure_plate"
+    },
+    "powered=true": {
+      "model": "midgard:block/aspen/aspen_pressure_plate_down"
+    }
+  }
+}

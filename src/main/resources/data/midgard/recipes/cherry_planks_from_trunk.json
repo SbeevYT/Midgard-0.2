@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "midgard:cherry_trunk"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cherry_planks",
+    "count": 2
+  }
+}

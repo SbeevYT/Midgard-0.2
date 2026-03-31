@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_log"
+    }
+  },
+  "result": {
+    "item": "midgard:birch_trunk",
+    "count": 4
+  }
+}

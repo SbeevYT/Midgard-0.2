@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:acacia_log",
+    "minecraft:acacia_wood",
+    "minecraft:stripped_acacia_log",
+    "minecraft:stripped_acacia_wood",
+    "midgard:acacia_trunk",
+    "midgard:stripped_acacia_trunk",
+    "midgard:acacia_branch"
+  ]
+}

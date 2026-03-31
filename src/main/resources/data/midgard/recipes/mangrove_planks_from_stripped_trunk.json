@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "midgard:stripped_mangrove_trunk"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mangrove_planks",
+    "count": 2
+  }
+}

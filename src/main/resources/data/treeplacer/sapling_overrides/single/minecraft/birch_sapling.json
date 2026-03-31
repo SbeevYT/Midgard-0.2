@@ -1,0 +1,67 @@
+{
+   "replace": false,
+   "values": {
+      "treeplacer:all_biomes" : [
+         {
+            "feature" : "midgard:birch/small_birch_tree_1",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:birch/small_birch_tree_2",
+            "weight" : 1
+         },
+        {
+          "feature" : "midgard:birch/small_birch_tree_3",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/small_birch_tree_4",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/small_birch_tree_5",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/small_birch_tree_6",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/small_birch_tree_7",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/tall_birch_tree_1",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/tall_birch_tree_2",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/tall_birch_tree_3",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/tall_birch_tree_4",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/tall_birch_tree_5",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/tall_birch_tree_6",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/tall_birch_tree_7",
+          "weight" : 1
+        },
+        {
+          "feature" : "midgard:birch/tall_birch_tree_8",
+          "weight" : 1
+        }
+      ]
+   }
+}

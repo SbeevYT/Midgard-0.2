@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:stripped_pine_log"
+    }
+  },
+  "result": {
+    "item": "midgard:stripped_pine_trunk",
+    "count": 4
+  }
+}

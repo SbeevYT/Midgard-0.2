@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "midgard:stripped_maple_log"
+    }
+  },
+  "result": {
+    "item": "midgard:stripped_maple_trunk",
+    "count": 4
+  }
+}

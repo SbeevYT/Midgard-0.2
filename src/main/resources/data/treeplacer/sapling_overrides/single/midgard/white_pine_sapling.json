@@ -1,0 +1,31 @@
+{
+   "replace": false,
+   "values": {
+      "treeplacer:all_biomes" : [
+         {
+            "feature" : "midgard:pine/white_pine_tree_1",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:pine/white_pine_tree_2",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:pine/white_pine_tree_3",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:pine/white_pine_tree_4",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:pine/small_white_pine_tree_1",
+            "weight" : 1
+         },
+         {
+            "feature" : "midgard:pine/small_white_pine_tree_2",
+            "weight" : 1
+         }
+      ]
+   }
+}

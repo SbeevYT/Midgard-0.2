@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "midgard:oak_trunk"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "midgard:blocks/oak_trunk"
+}

@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:jungle_log",
+    "minecraft:jungle_wood",
+    "minecraft:stripped_jungle_log",
+    "minecraft:stripped_jungle_wood",
+    "midgard:jungle_trunk",
+    "midgard:stripped_jungle_trunk",
+    "midgard:jungle_branch"
+  ]
+}

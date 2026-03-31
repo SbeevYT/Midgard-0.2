@@ -1,0 +1,90 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "midgard:block/jungle/stripped_jungle_trunk_post"
+        },
+        "when": {
+          "up": "true"
+        }
+    },
+    {
+      "apply": {
+        "model": "midgard:block/jungle/stripped_jungle_trunk_side",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "midgard:block/jungle/stripped_jungle_trunk_side_tall",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "midgard:block/jungle/stripped_jungle_trunk_side",
+        "uvlock": true
+      },
+      "when": {
+        "north": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "midgard:block/jungle/stripped_jungle_trunk_side_tall",
+        "uvlock": true
+      },
+      "when": {
+        "north": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "midgard:block/jungle/stripped_jungle_trunk_side",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "midgard:block/jungle/stripped_jungle_trunk_side_tall",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "midgard:block/jungle/stripped_jungle_trunk_side",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "midgard:block/jungle/stripped_jungle_trunk_side_tall",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "tall"
+      }
+    }
+  ]
+}

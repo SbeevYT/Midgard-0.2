@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "midgard:block/white_sandstone_bottom",
+    "side": "midgard:block/white_sandstone",
+    "top": "midgard:block/white_sandstone_top"
+  }
+}
