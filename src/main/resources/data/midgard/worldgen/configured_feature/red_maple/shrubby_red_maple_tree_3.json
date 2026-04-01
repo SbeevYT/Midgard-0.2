@@ -1,51 +1,52 @@
 {
     "type": "ohthetreesyoullgrow:tree_from_nbt_v1",
-  "config": {
-    "base_location": "ohthetreesyoullgrow:features/trees/blank_trunk",
-    "canopy_location": "ohthetreesyoullgrow:features/trees/red_maple_tree/shrubby_red_maple_tree_canopy3",
-    "can_grow_on_filter": {
-      "type": "minecraft:matching_block_tag",
-      "tag": "midgard:surface_blocks"
-    },
-    "can_leaves_place_filter": {
-      "type": "minecraft:replaceable"
-    }, 
-    "decorators": [],
-    "height": {
-      "type": "minecraft:uniform",
-      "value": {
-        "max_inclusive": 3,
-        "min_inclusive": 0
-      }
-    },
-    "leaves_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:spruce_leaves",
-        "Properties": {
-          "distance": "7",
-          "persistent": "false",
-          "waterlogged": "false"
-        }
-      }
-    },
-    "leaves_target": [],
-    "log_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "midgard:maple_trunk",
-        "Properties": {
-          "axis": "y"
-        }
+    "config": {
+        "base_location": "ohthetreesyoullgrow:features/trees/blank_trunk",
+        "canopy_location": "ohthetreesyoullgrow:features/trees/red_maple_tree/shrubby_red_maple_tree_canopy3",
+        "can_grow_on_filter": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "midgard:surface_blocks"
+        },
+        "can_leaves_place_filter": {
+            "type": "minecraft:replaceable"
+        },
+        "decorators": [],
+        "height": {
+            "type": "minecraft:uniform",
+            "value": {
+                "max_inclusive": 3,
+                "min_inclusive": 0
+            }
+        },
+        "leaves_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:spruce_leaves",
+                "Properties": {
+                    "distance": "7",
+                    "persistent": "false",
+                    "waterlogged": "false"
+                }
+            }
+        },
+        "leaves_target": [],
+        "log_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "midgard:maple_trunk",
+                "Properties": {
+                    "axis": "y"
+                }
+            }
+        },
+        "log_target": [],
+        "place_from_nbt": [
+            "midgard:maple_trunk",
+            "midgard:maple_branch",
+            "midgard:red_maple_leaves",
+            "midgard:maple_log",
+            "midgard:maple_wood"
+        ],
+        "random_rotation": false
     }
-    },
-    "log_target": [],
-    "place_from_nbt": [
-        "midgard:maple_trunk",
-        "midgard:maple_branch",
-        "midgard:red_maple_leaves",
-        "midgard:maple_log",
-        "midgard:maple_wood"
-    ]
-}
 }

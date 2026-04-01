@@ -3,6 +3,7 @@
   "config": {
     "base_location": "ohthetreesyoullgrow:features/trees/blank_trunk",
     "canopy_location": "ohthetreesyoullgrow:features/trees/aspen_tree/big_aspen_tree_canopy3",
+    "random_rotation": false,
     "can_grow_on_filter": {
       "type": "minecraft:matching_block_tag",
       "tag": "midgard:surface_blocks"
