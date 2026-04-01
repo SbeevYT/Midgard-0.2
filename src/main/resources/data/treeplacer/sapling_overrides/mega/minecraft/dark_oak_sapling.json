@@ -3,23 +3,23 @@
    "values": {
       "treeplacer:all_biomes" : [
          {
-            "feature" : "midgard:dark_oak/dark_oak_tree_1",
+            "feature" : "midgard:selectors/dark_oak_tree_1_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:dark_oak/dark_oak_tree_2",
+            "feature" : "midgard:selectors/dark_oak_tree_2_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:dark_oak/dark_oak_tree_3",
+            "feature" : "midgard:selectors/dark_oak_tree_3_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:dark_oak/dark_oak_tree_4",
+            "feature" : "midgard:selectors/dark_oak_tree_4_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:dark_oak/huge_dark_oak_tree_1",
+            "feature" : "midgard:selectors/huge_dark_oak_tree_1_selector",
             "weight" : 1
          }
      ]

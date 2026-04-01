@@ -3,75 +3,75 @@
    "values": {
       "treeplacer:all_biomes" : [
          {
-            "feature" : "midgard:spruce/big_cone_spruce_tree_1",
+            "feature" : "midgard:selectors/big_cone_spruce_tree_1_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:spruce/big_cone_spruce_tree_2",
+            "feature" : "midgard:selectors/big_cone_spruce_tree_2_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:spruce/big_cone_spruce_tree_3",
+            "feature" : "midgard:selectors/big_cone_spruce_tree_3_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:spruce/big_cone_spruce_tree_4",
+            "feature" : "midgard:selectors/big_cone_spruce_tree_4_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:spruce/cone_spruce_tree_1",
+            "feature" : "midgard:selectors/cone_spruce_tree_1_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:spruce/cone_spruce_tree_2",
+            "feature" : "midgard:selectors/cone_spruce_tree_2_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:spruce/cone_spruce_tree_3",
+            "feature" : "midgard:selectors/cone_spruce_tree_3_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:spruce/cone_spruce_tree_4",
+            "feature" : "midgard:selectors/cone_spruce_tree_4_selector",
             "weight" : 1
          },
         {
-          "feature" : "midgard:spruce/cone_spruce_tree_5",
+          "feature" : "midgard:selectors/cone_spruce_tree_5_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:spruce/cone_spruce_tree_6",
+          "feature" : "midgard:selectors/cone_spruce_tree_6_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:spruce/small_spike_spruce_tree_1",
+          "feature" : "midgard:selectors/small_spike_spruce_tree_1_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:spruce/small_spike_spruce_tree_2",
+          "feature" : "midgard:selectors/small_spike_spruce_tree_2_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:spruce/small_spike_spruce_tree_3",
+          "feature" : "midgard:selectors/small_spike_spruce_tree_3_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:spruce/small_spike_spruce_tree_4",
+          "feature" : "midgard:selectors/small_spike_spruce_tree_4_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:spruce/spike_spruce_tree_1",
+          "feature" : "midgard:selectors/spike_spruce_tree_1_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:spruce/spike_spruce_tree_2",
+          "feature" : "midgard:selectors/spike_spruce_tree_2_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:spruce/spike_spruce_tree_3",
+          "feature" : "midgard:selectors/spike_spruce_tree_3_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:spruce/spike_spruce_tree_4",
+          "feature" : "midgard:selectors/spike_spruce_tree_4_selector",
           "weight" : 1
         }
       ]

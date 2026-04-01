@@ -3,91 +3,91 @@
    "values": {
       "treeplacer:all_biomes" : [
          {
-            "feature" : "midgard:yellow_maple/big_yellow_maple_tree_1",
+            "feature" : "midgard:selectors/big_yellow_maple_tree_1_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:yellow_maple/big_yellow_maple_tree_2",
+            "feature" : "midgard:selectors/big_yellow_maple_tree_2_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:yellow_maple/big_yellow_maple_tree_3",
+            "feature" : "midgard:selectors/big_yellow_maple_tree_3_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:yellow_maple/big_yellow_maple_tree_4",
+            "feature" : "midgard:selectors/big_yellow_maple_tree_4_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:yellow_maple/bushy_yellow_maple_tree_1",
+            "feature" : "midgard:selectors/bushy_yellow_maple_tree_1_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:yellow_maple/bushy_yellow_maple_tree_2",
+            "feature" : "midgard:selectors/bushy_yellow_maple_tree_2_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:yellow_maple/bushy_yellow_maple_tree_3",
+            "feature" : "midgard:selectors/bushy_yellow_maple_tree_3_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:yellow_maple/bushy_yellow_maple_tree_4",
+            "feature" : "midgard:selectors/bushy_yellow_maple_tree_4_selector",
             "weight" : 1
          },
          {
-           "feature" : "midgard:yellow_maple/medium_yellow_maple_tree_1",
+           "feature" : "midgard:selectors/medium_yellow_maple_tree_1_selector",
            "weight" : 1
          },
         {
-          "feature" : "midgard:yellow_maple/medium_yellow_maple_tree_2",
+          "feature" : "midgard:selectors/medium_yellow_maple_tree_2_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/medium_yellow_maple_tree_3",
+          "feature" : "midgard:selectors/medium_yellow_maple_tree_3_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/medium_yellow_maple_tree_4",
+          "feature" : "midgard:selectors/medium_yellow_maple_tree_4_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/shrubby_yellow_maple_tree_1",
+          "feature" : "midgard:selectors/shrubby_yellow_maple_tree_1_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/shrubby_yellow_maple_tree_2",
+          "feature" : "midgard:selectors/shrubby_yellow_maple_tree_2_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/shrubby_yellow_maple_tree_3",
+          "feature" : "midgard:selectors/shrubby_yellow_maple_tree_3_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/small_yellow_maple_tree_1",
+          "feature" : "midgard:selectors/small_yellow_maple_tree_1_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/small_yellow_maple_tree_2",
+          "feature" : "midgard:selectors/small_yellow_maple_tree_2_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/small_yellow_maple_tree_3",
+          "feature" : "midgard:selectors/small_yellow_maple_tree_3_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/small_yellow_maple_tree_4",
+          "feature" : "midgard:selectors/small_yellow_maple_tree_4_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/small_yellow_maple_tree_5",
+          "feature" : "midgard:selectors/small_yellow_maple_tree_5_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/small_yellow_maple_tree_6",
+          "feature" : "midgard:selectors/small_yellow_maple_tree_6_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:yellow_maple/small_yellow_maple_tree_7",
+          "feature" : "midgard:selectors/small_yellow_maple_tree_7_selector",
           "weight" : 1
         }
       ]

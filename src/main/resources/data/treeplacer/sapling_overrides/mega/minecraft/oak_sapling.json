@@ -3,7 +3,7 @@
    "values": {
       "treeplacer:all_biomes" : [
          {
-            "feature" : "midgard:oak/huge_oak_tree_1",
+            "feature" : "midgard:selectors/huge_oak_tree_1_selector",
             "weight" : 1
          }
      ]

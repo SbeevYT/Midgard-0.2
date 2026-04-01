@@ -3,67 +3,67 @@
    "values": {
       "treeplacer:all_biomes" : [
          {
-            "feature" : "midgard:pine/pine_tree_1",
+            "feature" : "midgard:selectors/pine_tree_1_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:pine/pine_tree_2",
+            "feature" : "midgard:selectors/pine_tree_2_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:pine/pine_tree_3",
+            "feature" : "midgard:selectors/pine_tree_3_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:pine/pine_tree_4",
+            "feature" : "midgard:selectors/pine_tree_4_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:pine/cone_pine_tree_1",
+            "feature" : "midgard:selectors/cone_pine_tree_1_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:pine/cone_pine_tree_2",
+            "feature" : "midgard:selectors/cone_pine_tree_2_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:pine/cone_pine_tree_3",
+            "feature" : "midgard:selectors/cone_pine_tree_3_selector",
             "weight" : 1
          },
          {
-            "feature" : "midgard:pine/cone_pine_tree_4",
+            "feature" : "midgard:selectors/cone_pine_tree_4_selector",
             "weight" : 1
          },
          {
-           "feature" : "midgard:pine/spike_pine_tree_1",
+           "feature" : "midgard:selectors/spike_pine_tree_1_selector",
            "weight" : 1
          },
         {
-          "feature" : "midgard:pine/spike_pine_tree_2",
+          "feature" : "midgard:selectors/spike_pine_tree_2_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:pine/spike_pine_tree_3",
+          "feature" : "midgard:selectors/spike_pine_tree_3_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:pine/spike_pine_tree_4",
+          "feature" : "midgard:selectors/spike_pine_tree_4_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:pine/small_spike_pine_tree_1",
+          "feature" : "midgard:selectors/small_spike_pine_tree_1_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:pine/small_spike_pine_tree_2",
+          "feature" : "midgard:selectors/small_spike_pine_tree_2_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:pine/small_spike_pine_tree_3",
+          "feature" : "midgard:selectors/small_spike_pine_tree_3_selector",
           "weight" : 1
         },
         {
-          "feature" : "midgard:pine/small_spike_pine_tree_4",
+          "feature" : "midgard:selectors/small_spike_pine_tree_4_selector",
           "weight" : 1
         }
       ]
