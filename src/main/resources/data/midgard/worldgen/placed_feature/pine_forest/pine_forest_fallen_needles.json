@@ -1,16 +1,16 @@
 {
-  "feature": "midgard:taiga_fallen_needles",
-  "placement": [
-    {
-      "type": "minecraft:count",
-      "count": 6
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "type": "minecraft:heightmap",
-      "heightmap": "WORLD_SURFACE_WG"
-    }
-  ]
+    "feature": "midgard:taiga_fallen_needles",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 6
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        }
+    ]
 }

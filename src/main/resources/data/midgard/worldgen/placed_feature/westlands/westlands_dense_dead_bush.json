@@ -1,16 +1,16 @@
 {
-  "feature": "midgard:dense_dead_bush",
-  "placement": [
-    {
-      "type": "minecraft:count",
-      "count": 2
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "type": "minecraft:heightmap",
-      "heightmap": "WORLD_SURFACE_WG"
-    }
-  ]
+    "feature": "midgard:dense_dead_bush",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 2
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        }
+    ]
 }

@@ -1,4 +1,4 @@
-package net.sbeev.midgard;
+/*package net.sbeev.midgard;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -88,3 +88,4 @@ public class FenceWallUpdater {
         }
     }
 }
+*/

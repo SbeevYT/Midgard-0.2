@@ -1,35 +1,35 @@
 {
-  "feature": "midgard:dirt_birch/dirt_small_birch_tree_5",
-  "placement": [
-    {
-      "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "data": 3,
-            "weight": 1
-          },
-          {
-            "data": 0,
-            "weight": 0
-          }
-        ]
-      }
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "type": "minecraft:surface_water_depth_filter",
-      "max_water_depth": 0
-    },
-    {
-      "type": "minecraft:heightmap",
-      "heightmap": "OCEAN_FLOOR"
-    },
-    {
-      "type": "minecraft:biome"
-    }
-  ]
+    "feature": "midgard:selectors/dirt_small_birch_tree_5_selector",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": {
+                "type": "minecraft:weighted_list",
+                "distribution": [
+                    {
+                        "data": 3,
+                        "weight": 1
+                    },
+                    {
+                        "data": 0,
+                        "weight": 0
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:surface_water_depth_filter",
+            "max_water_depth": 0
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "OCEAN_FLOOR"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
 }

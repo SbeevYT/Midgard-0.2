@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "midgard:dark_oak/huge_dark_oak_tree_1_90",
+                "chance": 0.25
+            },
+            {
+                "feature": "midgard:dark_oak/huge_dark_oak_tree_1_180",
+                "chance": 0.33
+            },
+            {
+                "feature": "midgard:dark_oak/huge_dark_oak_tree_1_270",
+                "chance": 0.5
+            }
+        ],
+        "default": "midgard:dark_oak/huge_dark_oak_tree_1"
+    }
+}

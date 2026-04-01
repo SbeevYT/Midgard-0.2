@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "midgard:spruce/spike_spruce_tree_3_90",
+                "chance": 0.25
+            },
+            {
+                "feature": "midgard:spruce/spike_spruce_tree_3_180",
+                "chance": 0.33
+            },
+            {
+                "feature": "midgard:spruce/spike_spruce_tree_3_270",
+                "chance": 0.5
+            }
+        ],
+        "default": "midgard:spruce/spike_spruce_tree_3"
+    }
+}

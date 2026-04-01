@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "midgard:orange_maple/bushy_orange_maple_tree_3_90",
+                "chance": 0.25
+            },
+            {
+                "feature": "midgard:orange_maple/bushy_orange_maple_tree_3_180",
+                "chance": 0.33
+            },
+            {
+                "feature": "midgard:orange_maple/bushy_orange_maple_tree_3_270",
+                "chance": 0.5
+            }
+        ],
+        "default": "midgard:orange_maple/bushy_orange_maple_tree_3"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "midgard:dirt_spruce/dirt_cone_spruce_tree_1_90",
+                "chance": 0.25
+            },
+            {
+                "feature": "midgard:dirt_spruce/dirt_cone_spruce_tree_1_180",
+                "chance": 0.33
+            },
+            {
+                "feature": "midgard:dirt_spruce/dirt_cone_spruce_tree_1_270",
+                "chance": 0.5
+            }
+        ],
+        "default": "midgard:dirt_spruce/dirt_cone_spruce_tree_1"
+    }
+}
