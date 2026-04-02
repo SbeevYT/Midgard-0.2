@@ -1,32 +1,55 @@
+"""
+================================================================================
+           MINECRAFT STRUCTURE CLEANUP SCRIPT (ROTATION FILE REMOVER)
+================================================================================
+
+WHAT THIS SCRIPT DOES:
+This script scans a folder (and all its subfolders) and permanently deletes 
+any files that end with '_90', '_180', or '_270'. 
+
+WHY USE THIS?
+If your previous rotation attempts failed or created "exploded" trees, you 
+need to clean out those broken files before running the rotation factory again. 
+This prevents the factory from trying to rotate already-rotated files.
+
+HOW TO USE:
+1. Update the 'my_directory' variable below to your structures folder.
+2. Run the script using Python (e.g., 'python cleanup.py').
+3. The script will list every file it deletes and give a total count at the end.
+
+WARNING:
+This script DELETES files. Make sure your path is correct before running!
+================================================================================
+"""
+
 import os
 
-def verwijder_rotatie_bestanden(doel_map):
-    # De suffixes waar we naar zoeken
+def remove_rotation_files(target_directory):
+    # The specific suffixes created by the rotation script
     targets = ("_90", "_180", "_270")
-    verwijderd_count = 0
+    deleted_count = 0
 
-    # os.walk gaat door alle submappen heen (recursief)
-    for root, dirs, files in os.walk(doel_map):
+    # os.walk scans the main folder and all subfolders (recursive)
+    for root, dirs, files in os.walk(target_directory):
         for file in files:
-            # Splits de extensie van de bestandsnaam (bijv. 'foto_90' en '.jpg')
+            # Separate the file name from the extension (e.g., 'birch_90' and '.nbt')
             name, ext = os.path.splitext(file)
             
-            # Controleer of de bestandsnaam eindigt op een van de targets
+            # Check if the name ends with one of our target suffixes
             if name.endswith(targets):
                 file_path = os.path.join(root, file)
                 try:
                     os.remove(file_path)
-                    print(f"Verwijderd: {file_path}")
-                    verwijderd_count += 1
+                    print(f"Deleted: {file_path}")
+                    deleted_count += 1
                 except Exception as e:
-                    print(f"Fout bij verwijderen van {file_path}: {e}")
+                    print(f"Error deleting {file_path}: {e}")
 
-    print(f"\nKlaar! Totaal aantal bestanden verwijderd: {verwijderd_count}")
+    print(f"\nFinished! Total files deleted: {deleted_count}")
 
-# GEBRUIK: Vul hier het volledige pad naar je map in
-# Gebruik voor Windows een 'r' voor het pad: r"C:\Foto's\Project"
-mijn_map = "src/main/resources/data/ohthetreesyoullgrow/structures/features/trees" 
+# UPDATE THIS PATH: Use the 'r' before the quotes for Windows paths
+my_directory = r"src/main/resources/data/ohthetreesyoullgrow/structures/features/trees" 
 
-# Voer de functie uit
-verwijder_rotatie_bestanden(mijn_map) # Haal het # weg om het echt uit te voeren
-#print("Script staat in test-modus. Haal het laatste hekje weg om het uit te voeren.")
+# Execute the function
+if __name__ == "__main__":
+    remove_rotation_files(my_directory)
