@@ -40,6 +40,8 @@ versionRange = "[1.20,1.21)"
 ordering = "NONE"
 side = "CLIENT"
 
+[[mixins]]
+config="midgard.mixins.json"
 
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
