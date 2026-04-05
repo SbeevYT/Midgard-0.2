@@ -25,9 +25,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sbeev.midgard.Midgard;
-import net.sbeev.midgard.block.custom.FlammableWallBlock;
-import net.sbeev.midgard.block.custom.ModFlammableRotatedPillarBlock;
-import net.sbeev.midgard.block.custom.StrippedWallBlock;
+import net.sbeev.midgard.block.custom.*;
 import net.sbeev.midgard.item.ModItems;
 
 import java.util.function.Supplier;
@@ -165,172 +163,49 @@ public class ModBlocks {
     public static final RegistryObject<Block> STRIPPED_OAK_TRUNK = registerBlock("stripped_oak_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> OAK_BRANCH = registerBlock("oak_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> BIRCH_TRUNK = registerBlock("birch_trunk",
             () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> STRIPPED_BIRCH_TRUNK = registerBlock("stripped_birch_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> BIRCH_BRANCH = registerBlock("birch_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
-
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> SPRUCE_TRUNK = registerBlock("spruce_trunk",
             () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> STRIPPED_SPRUCE_TRUNK = registerBlock("stripped_spruce_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> SPRUCE_BRANCH = registerBlock("spruce_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
-
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> JUNGLE_TRUNK = registerBlock("jungle_trunk",
             () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> STRIPPED_JUNGLE_TRUNK = registerBlock("stripped_jungle_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> JUNGLE_BRANCH = registerBlock("jungle_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
-
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> ACACIA_TRUNK = registerBlock("acacia_trunk",
             () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> STRIPPED_ACACIA_TRUNK = registerBlock("stripped_acacia_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> ACACIA_BRANCH = registerBlock("acacia_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> DARK_OAK_TRUNK = registerBlock("dark_oak_trunk",
             () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> STRIPPED_DARK_OAK_TRUNK = registerBlock("stripped_dark_oak_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> DARK_OAK_BRANCH = registerBlock("dark_oak_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> MANGROVE_TRUNK = registerBlock("mangrove_trunk",
             () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> STRIPPED_MANGROVE_TRUNK = registerBlock("stripped_mangrove_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> MANGROVE_BRANCH = registerBlock("mangrove_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> CHERRY_TRUNK = registerBlock("cherry_trunk",
             () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> STRIPPED_CHERRY_TRUNK = registerBlock("stripped_cherry_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> CHERRY_BRANCH = registerBlock("cherry_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> PINE_LOG = registerBlock("pine_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(3f)));
@@ -438,22 +313,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> STRIPPED_PINE_TRUNK = registerBlock("stripped_pine_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> PINE_BRANCH = registerBlock("pine_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> PINE_FENCE = registerBlock("pine_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
@@ -499,6 +359,14 @@ public class ModBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
     public static final RegistryObject<Block> PINE_TRAPDOOR = registerBlock("pine_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
+    public static final RegistryObject<Block> PINE_SIGN = BLOCKS.register("pine_sign",
+            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.PINE));
+    public static final RegistryObject<Block> PINE_WALL_SIGN = BLOCKS.register("pine_wall_sign",
+            () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.PINE));
+    public static final RegistryObject<Block> PINE_HANGING_SIGN = BLOCKS.register("pine_hanging_sign",
+            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN), ModWoodTypes.PINE));
+    public static final RegistryObject<Block> PINE_WALL_HANGING_SIGN = BLOCKS.register("pine_wall_hanging_sign",
+            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.PINE));
     public static final RegistryObject<Block> PINE_SAPLING = registerBlock("pine_sapling",
             () -> new SaplingBlock(new SpruceTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
     public static final RegistryObject<Block> WHITE_PINE_SAPLING = registerBlock("white_pine_sapling",
@@ -573,24 +441,8 @@ public class ModBlocks {
             () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> STRIPPED_ASPEN_TRUNK = registerBlock("stripped_aspen_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
-
     public static final RegistryObject<Block> ASPEN_BRANCH = registerBlock("aspen_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> ASPEN_FENCE = registerBlock("aspen_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
@@ -636,6 +488,14 @@ public class ModBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
     public static final RegistryObject<Block> ASPEN_TRAPDOOR = registerBlock("aspen_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
+    public static final RegistryObject<Block> ASPEN_SIGN = BLOCKS.register("aspen_sign",
+            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.ASPEN));
+    public static final RegistryObject<Block> ASPEN_WALL_SIGN = BLOCKS.register("aspen_wall_sign",
+            () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.ASPEN));
+    public static final RegistryObject<Block> ASPEN_HANGING_SIGN = BLOCKS.register("aspen_hanging_sign",
+            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN), ModWoodTypes.ASPEN));
+    public static final RegistryObject<Block> ASPEN_WALL_HANGING_SIGN = BLOCKS.register("aspen_wall_hanging_sign",
+            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.ASPEN));
     public static final RegistryObject<Block> ASPEN_SAPLING = registerBlock("aspen_sapling",
             () -> new SaplingBlock(new BirchTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
     public static final RegistryObject<Block> YELLOW_ASPEN_SAPLING = registerBlock("yellow_aspen_sapling",
@@ -764,24 +624,8 @@ public class ModBlocks {
             () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> STRIPPED_MAPLE_TRUNK = registerBlock("stripped_maple_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
-
     public static final RegistryObject<Block> MAPLE_BRANCH = registerBlock("maple_branch",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
-                @Override
-                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return true;
-                }
-
-                @Override
-                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 20;
-                }
-
-                @Override
-                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
-                    return 5;
-                }
-            });
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> MAPLE_FENCE = registerBlock("maple_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
@@ -827,6 +671,14 @@ public class ModBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
     public static final RegistryObject<Block> MAPLE_TRAPDOOR = registerBlock("maple_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
+    public static final RegistryObject<Block> MAPLE_SIGN = BLOCKS.register("maple_sign",
+            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.MAPLE));
+    public static final RegistryObject<Block> MAPLE_WALL_SIGN = BLOCKS.register("maple_wall_sign",
+            () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.MAPLE));
+    public static final RegistryObject<Block> MAPLE_HANGING_SIGN = BLOCKS.register("maple_hanging_sign",
+            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN), ModWoodTypes.MAPLE));
+    public static final RegistryObject<Block> MAPLE_WALL_HANGING_SIGN = BLOCKS.register("maple_wall_hanging_sign",
+            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.MAPLE));
     public static final RegistryObject<Block> MAPLE_SAPLING = registerBlock("maple_sapling",
             () -> new SaplingBlock(new OakTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
     public static final RegistryObject<Block> YELLOW_MAPLE_SAPLING = registerBlock("yellow_maple_sapling",

@@ -16,6 +16,8 @@
     "midgard:pine_pressure_plate",
     "midgard:pine_door",
     "midgard:pine_trapdoor",
+    "midgard:pine_sign",
+    "midgard:pine_hanging_sign",
 
     "midgard:aspen_log",
     "midgard:aspen_wood",
@@ -33,6 +35,8 @@
     "midgard:aspen_pressure_plate",
     "midgard:aspen_door",
     "midgard:aspen_trapdoor",
+    "midgard:aspen_sign",
+    "midgard:aspen_hanging_sign",
 
     "midgard:maple_log",
     "midgard:maple_wood",
@@ -50,6 +54,8 @@
     "midgard:maple_pressure_plate",
     "midgard:maple_door",
     "midgard:maple_trapdoor",
+    "midgard:maple_sign",
+    "midgard:maple_hanging_sign",
 
     "midgard:oak_trunk",
     "midgard:oak_branch",

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "midgard:maple_hanging_sign"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "midgard:blocks/maple_wall_hanging_sign"
+}

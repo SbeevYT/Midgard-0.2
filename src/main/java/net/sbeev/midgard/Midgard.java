@@ -1,6 +1,7 @@
 package net.sbeev.midgard;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.Sheets;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -13,6 +14,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.sbeev.midgard.block.ModBlocks;
+import net.sbeev.midgard.block.custom.ModWoodTypes;
+import net.sbeev.midgard.block.entity.ModBlockEntities;
 import net.sbeev.midgard.item.ModCreativeModTabs;
 import net.sbeev.midgard.item.ModItems;
 import org.slf4j.Logger;
@@ -31,6 +34,7 @@ public class Midgard {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -59,6 +63,9 @@ public class Midgard {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            Sheets.addWoodType(ModWoodTypes.PINE);
+            Sheets.addWoodType(ModWoodTypes.ASPEN);
+            Sheets.addWoodType(ModWoodTypes.MAPLE);
 
         }
     }

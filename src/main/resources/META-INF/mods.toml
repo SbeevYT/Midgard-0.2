@@ -1,6 +1,7 @@
 modLoader="javafml"
 loaderVersion="[47,)"
 license="MIT"
+issueTrackerURL="https://github.com/SbeevYT/Midgard-0.2/issues"
 
 [[mods]] #mandatory
 modId="midgard" #mandatory
