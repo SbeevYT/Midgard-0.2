@@ -9,6 +9,9 @@ displayName="Midgard" #mandatory
 authors="Sbeev" #optional
 description='''A total biome overhaul'''
 
+[[mixins]]
+config="midgard.mixins.json"
+
 [[dependencies.midgard]]
 modId="forge"
 mandatory=false
