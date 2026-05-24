@@ -3,6 +3,7 @@
   "config": {
     "base_location": "ohthetreesyoullgrow:features/trees/blank_trunk",
     "canopy_location": "ohthetreesyoullgrow:features/trees/spruce_tree/cone_spruce_tree_canopy5",
+    "random_rotation": true,
     "can_grow_on_filter": {
       "type": "minecraft:matching_block_tag",
       "tag": "midgard:surface_blocks"
@@ -29,7 +30,9 @@
         }
       }
     },
-    "leaves_target": [],
+    "leaves_target": [
+      "minecraft:spruce_leaves"
+    ],
     "log_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
@@ -39,7 +42,12 @@
         }
     }
     },
-    "log_target": [],
+    "log_target": [
+      "midgard:spruce_trunk",
+      "midgard:spruce_branch",
+      "minecraft:spruce_wood",
+      "minecraft:spruce_log"
+    ],
     "place_from_nbt": [
         "midgard:spruce_trunk",
         "midgard:spruce_branch",

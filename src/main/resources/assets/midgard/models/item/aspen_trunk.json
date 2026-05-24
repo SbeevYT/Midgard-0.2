@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "midgard:block/aspen_log"
+    "wall": "midgard:block/aspen_log_0"
   }
 }

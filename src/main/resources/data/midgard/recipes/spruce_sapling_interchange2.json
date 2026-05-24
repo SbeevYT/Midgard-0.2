@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_sapling"
+    }
+  ],
+  "result": {
+    "item": "midgard:realistic_spruce_sapling",
+    "count": 1
+  }
+}

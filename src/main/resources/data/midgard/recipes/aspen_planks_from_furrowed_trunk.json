@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "midgard:furrowed_aspen_trunk"
+    }
+  ],
+  "result": {
+    "item": "midgard:aspen_planks",
+    "count": 2
+  }
+}

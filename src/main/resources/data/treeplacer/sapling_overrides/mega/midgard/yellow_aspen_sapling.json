@@ -1,0 +1,11 @@
+{
+  "replace": false,
+   "values": {
+      "treeplacer:all_biomes" : [
+         {
+            "feature" : "midgard:yellow_aspen/huge_yellow_aspen_tree_1",
+            "weight" : 1
+         }
+     ]
+   }
+}

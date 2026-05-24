@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "midgard:block/realistic_birch_sapling"
+  }
+}

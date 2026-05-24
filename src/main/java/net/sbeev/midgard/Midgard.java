@@ -3,6 +3,7 @@ package net.sbeev.midgard;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.Sheets;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -44,7 +45,20 @@ public class Midgard {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        event.enqueueWork(() -> {
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.PINE_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.WHITE_PINE_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.ASPEN_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.YELLOW_ASPEN_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.MAPLE_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.YELLOW_MAPLE_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.ORANGE_MAPLE_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.RED_MAPLE_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.REALISTIC_BIRCH_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.REALISTIC_DARK_OAK_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.REALISTIC_OAK_SAPLING.get().asItem(), 0.3F);
+            ComposterBlock.COMPOSTABLES.put(ModBlocks.REALISTIC_SPRUCE_SAPLING.get().asItem(), 0.3F);
+        });
     }
 
     // Add the example block item to the building blocks tab

@@ -59,6 +59,8 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.WHITE_PINE_SAPLING.get());
 
                         output.accept(ModBlocks.ASPEN_LOG.get());
+                        output.accept(ModBlocks.ROUGH_ASPEN_LOG.get());
+                        output.accept(ModBlocks.FURROWED_ASPEN_LOG.get());
                         output.accept(ModBlocks.ASPEN_WOOD.get());
                         output.accept(ModBlocks.STRIPPED_ASPEN_LOG.get());
                         output.accept(ModBlocks.STRIPPED_ASPEN_WOOD.get());
@@ -72,8 +74,11 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.ASPEN_DOOR.get());
                         output.accept(ModBlocks.ASPEN_TRAPDOOR.get());
                         output.accept(ModBlocks.ASPEN_TRUNK.get());
+                        output.accept(ModBlocks.ROUGH_ASPEN_TRUNK.get());
+                        output.accept(ModBlocks.FURROWED_ASPEN_TRUNK.get());
                         output.accept(ModBlocks.STRIPPED_ASPEN_TRUNK.get());
                         output.accept(ModBlocks.ASPEN_BRANCH.get());
+                        output.accept(ModBlocks.ROUGH_ASPEN_BRANCH.get());
                         output.accept(ModBlocks.ASPEN_SIGN.get());
                         output.accept(ModBlocks.ASPEN_HANGING_SIGN.get());
                         output.accept(ModBlocks.ASPEN_LEAVES.get());
@@ -140,6 +145,11 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.CHERRY_TRUNK.get());
                         output.accept(ModBlocks.STRIPPED_CHERRY_TRUNK.get());
                         output.accept(ModBlocks.CHERRY_BRANCH.get());
+
+                        output.accept(ModBlocks.REALISTIC_OAK_SAPLING.get());
+                        output.accept(ModBlocks.REALISTIC_BIRCH_SAPLING.get());
+                        output.accept(ModBlocks.REALISTIC_SPRUCE_SAPLING.get());
+                        output.accept(ModBlocks.REALISTIC_DARK_OAK_SAPLING.get());
 
                     })
                     .build());

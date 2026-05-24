@@ -1726,7 +1726,7 @@
           }
         },
         {
-          "biome": "midgard:aspen_forest",
+          "biome": "minecraft:windswept_hills",
           "parameters": {
             "temperature": [
               -0.15,
@@ -1758,7 +1758,7 @@
           }
         },
         {
-          "biome": "midgard:aspen_forest",
+          "biome": "minecraft:windswept_hills",
           "parameters": {
             "temperature": [
               -0.15,
@@ -1954,11 +1954,11 @@
           "parameters": {
             "temperature": [
               0.15,
-              0.25
+              0.30
             ],
             "humidity": [
               -1,
-              0.45
+              0.10
             ],
             "continentalness": [
               -0.155,
@@ -1986,11 +1986,11 @@
           "parameters": {
             "temperature": [
               0.15,
-              0.25
+              0.30
             ],
             "humidity": [
               -1,
-              0.45
+              0.10
             ],
             "continentalness": [
               -0.155,
@@ -2018,11 +2018,11 @@
           "parameters": {
             "temperature": [
               0.15,
-              0.25
+              0.30
             ],
             "humidity": [
               -1,
-              0.45
+              0.10
             ],
             "continentalness": [
               -0.155,
@@ -2050,11 +2050,11 @@
           "parameters": {
             "temperature": [
               0.15,
-              0.25
+              0.30
             ],
             "humidity": [
               -1,
-              0.45
+              0.10
             ],
             "continentalness": [
               -0.155,
@@ -2081,7 +2081,7 @@
           "biome": "midgard:westlands",
           "parameters": {
             "temperature": [
-              0.25,
+              0.30,
               0.35
             ],
             "humidity": [
@@ -2113,12 +2113,76 @@
           "biome": "midgard:westlands",
           "parameters": {
             "temperature": [
-              0.25,
+              0.30,
               0.35
             ],
             "humidity": [
               -1,
               0.45
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.01,
+              0.55
+            ],
+            "weirdness":
+            [
+              0.06,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:sparse_pine_forest",
+          "parameters": {
+            "temperature": [
+              0.15,
+              0.35
+            ],
+            "humidity": [
+              0.10,
+              0.40
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.01,
+              0.55
+            ],
+            "weirdness":
+            [
+              -1,
+              -0.06
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:sparse_pine_forest",
+          "parameters": {
+            "temperature": [
+              0.15,
+              0.35
+            ],
+            "humidity": [
+              0.10,
+              0.40
             ],
             "continentalness": [
               -0.155,
@@ -2149,7 +2213,7 @@
               0.35
             ],
             "humidity": [
-              0.45,
+              0.40,
               1
             ],
             "continentalness": [
@@ -2181,7 +2245,7 @@
               0.35
             ],
             "humidity": [
-              0.45,
+              0.40,
               1
             ],
             "continentalness": [
@@ -2274,7 +2338,7 @@
           "parameters": {
             "temperature": [
               0.15,
-              0.25
+              0.30
             ],
             "humidity": [
               -1,
@@ -2282,7 +2346,7 @@
             ],
             "continentalness": [
               -0.155,
-              0.55
+              1
             ],
             "erosion":
             [
@@ -2292,7 +2356,7 @@
             "weirdness":
             [
               -1,
-              0.5
+              0.00
             ],
             "depth": [
               -0.005,
@@ -2306,7 +2370,7 @@
           "parameters": {
             "temperature": [
               0.15,
-              0.25
+              0.30
             ],
             "humidity": [
               -0.25,
@@ -2324,7 +2388,7 @@
             "weirdness":
             [
               -1,
-              0.5
+              0.00
             ],
             "depth": [
               -0.005,
@@ -2334,14 +2398,14 @@
           }
         },
         {
-          "biome": "midgard:pine_forest",
+          "biome": "midgard:sparse_pine_forest",
           "parameters": {
             "temperature": [
               0.15,
-              0.25
+              0.30
             ],
             "humidity": [
-              -1,
+              -0.25,
               0.25
             ],
             "continentalness": [
@@ -2355,8 +2419,72 @@
             ],
             "weirdness":
             [
-              0.5,
+              0.00,
               1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:pine_forest",
+          "parameters": {
+            "temperature": [
+              0.15,
+              0.30
+            ],
+            "humidity": [
+              -1,
+              -0.25
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              -0.01
+            ],
+            "weirdness":
+            [
+              0.00,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:sparse_aspen_forest",
+          "parameters": {
+            "temperature": [
+              0.15,
+              0.30
+            ],
+            "humidity": [
+              0.25,
+              0.35
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              0
+            ],
+            "weirdness":
+            [
+              -1,
+              0
             ],
             "depth": [
               -0.005,
@@ -2370,10 +2498,10 @@
           "parameters": {
             "temperature": [
               0.15,
-              0.25
+              0.30
             ],
             "humidity": [
-              0.25,
+              0.35,
               1
             ],
             "continentalness": [
@@ -2398,14 +2526,46 @@
           }
         },
         {
+          "biome": "midgard:sparse_autumnal_aspen_forest",
+          "parameters": {
+            "temperature": [
+              0.15,
+              0.30
+            ],
+            "humidity": [
+              0.25,
+              0.35
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              0
+            ],
+            "weirdness":
+            [
+              0,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "midgard:autumnal_aspen_forest",
           "parameters": {
             "temperature": [
               0.15,
-              0.25
+              0.30
             ],
             "humidity": [
-              0.25,
+              0.35,
               1
             ],
             "continentalness": [
@@ -2433,7 +2593,7 @@
           "biome": "midgard:westlands",
           "parameters": {
             "temperature": [
-              0.25,
+              0.30,
               0.35
             ],
             "humidity": [
@@ -2465,7 +2625,7 @@
           "biome": "midgard:steppe",
           "parameters": {
             "temperature": [
-              0.25,
+              0.30,
               0.35
             ],
             "humidity": [
@@ -2494,15 +2654,15 @@
           }
         },
         {
-          "biome": "midgard:pine_forest",
+          "biome": "midgard:sparse_pine_forest",
           "parameters": {
             "temperature": [
-              0.25,
+              0.30,
               0.35
             ],
             "humidity": [
-              -1,
-              0.25
+              0.05,
+              1
             ],
             "continentalness": [
               -0.155,
@@ -2526,14 +2686,78 @@
           }
         },
         {
-          "biome": "midgard:aspen_forest",
+          "biome": "midgard:pine_forest",
           "parameters": {
             "temperature": [
-              0.25,
+              0.30,
+              0.35
+            ],
+            "humidity": [
+              -1,
+              0.05
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              -0.01
+            ],
+            "weirdness":
+            [
+              0.5,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:sparse_aspen_forest",
+          "parameters": {
+            "temperature": [
+              0.30,
               0.35
             ],
             "humidity": [
               0.25,
+              0.35
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              0
+            ],
+            "weirdness":
+            [
+              -1,
+              0
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:aspen_forest",
+          "parameters": {
+            "temperature": [
+              0.30,
+              0.35
+            ],
+            "humidity": [
+              0.35,
               1
             ],
             "continentalness": [
@@ -2558,14 +2782,46 @@
           }
         },
         {
-          "biome": "midgard:autumnal_aspen_forest",
+          "biome": "midgard:sparse_autumnal_aspen_forest",
           "parameters": {
             "temperature": [
-              0.25,
+              0.30,
               0.35
             ],
             "humidity": [
               0.25,
+              0.35
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              0
+            ],
+            "weirdness":
+            [
+              0,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:autumnal_aspen_forest",
+          "parameters": {
+            "temperature": [
+              0.30,
+              0.35
+            ],
+            "humidity": [
+              0.35,
               1
             ],
             "continentalness": [
@@ -2927,7 +3183,7 @@
             "erosion":
             [
               -0.51,
-              0
+              -0.01
             ],
             "weirdness":
             [
@@ -2959,7 +3215,7 @@
             "erosion":
             [
               -0.51,
-              -0.1
+              -0.01
             ],
             "weirdness":
             [
@@ -2991,7 +3247,7 @@
             "erosion":
             [
               -0.51,
-              -0.1
+              -0.01
             ],
             "weirdness":
             [
@@ -3023,7 +3279,7 @@
             "erosion":
             [
               -0.51,
-              -0.1
+              -0.01
             ],
             "weirdness":
             [
@@ -3055,7 +3311,7 @@
             "erosion":
             [
               -0.51,
-              -0.1
+              -0.01
             ],
             "weirdness":
             [
@@ -3087,7 +3343,7 @@
             "erosion":
             [
               -0.51,
-              -0.1
+              -0.01
             ],
             "weirdness":
             [

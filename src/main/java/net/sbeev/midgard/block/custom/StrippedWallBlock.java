@@ -40,6 +40,12 @@ public class StrippedWallBlock extends WallBlock {
             if (state.is(ModBlocks.ASPEN_TRUNK.get())) {
                 return ModBlocks.STRIPPED_ASPEN_TRUNK.get().defaultBlockState();
             }
+            if (state.is(ModBlocks.ROUGH_ASPEN_TRUNK.get())) {
+                return ModBlocks.STRIPPED_ASPEN_TRUNK.get().defaultBlockState();
+            }
+            if (state.is(ModBlocks.FURROWED_ASPEN_TRUNK.get())) {
+                return ModBlocks.STRIPPED_ASPEN_TRUNK.get().defaultBlockState();
+            }
             if (state.is(ModBlocks.MAPLE_TRUNK.get())) {
                 return ModBlocks.STRIPPED_MAPLE_TRUNK.get().defaultBlockState();
             }

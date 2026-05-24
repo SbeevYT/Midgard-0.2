@@ -9,6 +9,9 @@
       },
       {
         "model": "midgard:block/shrub_2"
+      },
+      {
+        "model": "midgard:block/shrub_3"
       }
     ]
   }

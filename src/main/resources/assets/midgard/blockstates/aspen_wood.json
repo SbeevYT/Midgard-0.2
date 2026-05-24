@@ -1,7 +1,12 @@
 {
   "variants": {
-    "": {
-      "model": "midgard:block/aspen/aspen_wood"
-    }
+    "": [
+      {
+        "model": "midgard:block/aspen/aspen_wood_0"
+      },
+      {
+        "model": "midgard:block/aspen/aspen_wood_1"
+      }
+    ]
   }
 }

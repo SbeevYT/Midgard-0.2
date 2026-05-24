@@ -68,7 +68,8 @@
     [
       "minecraft:glow_lichen",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal"
+      "minecraft:red_mushroom_normal",
+      "minecraft:seagrass_normal"
     ],
     [
       "midgard:riverbank/riverbank_dense_grass",

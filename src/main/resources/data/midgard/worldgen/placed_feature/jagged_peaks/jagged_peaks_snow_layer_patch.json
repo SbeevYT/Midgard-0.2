@@ -1,0 +1,24 @@
+{
+  "feature": "midgard:snow_layer_patch",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 24
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 132
+        },
+        "max_inclusive": {
+          "absolute": 320
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

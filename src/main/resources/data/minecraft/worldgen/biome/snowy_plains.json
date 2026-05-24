@@ -79,7 +79,8 @@
       "minecraft:patch_pumpkin"
     ],
     [
-      "midgard:snowy_plains/snowy_plains_sparse_cone_spruce_tree_1"
+      "midgard:snowy_plains/snowy_plains_sparse_cone_spruce_tree_1",
+      "midgard:snowy_plains/snowy_plains_snow_layer_patch"
     ],
     [
       "minecraft:freeze_top_layer"

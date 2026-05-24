@@ -3,6 +3,7 @@
   "config": {
     "base_location": "ohthetreesyoullgrow:features/trees/blank_trunk",
     "canopy_location": "ohthetreesyoullgrow:features/trees/dark_oak_tree/dark_oak_tree_canopy4",
+    "random_rotation": true,
     "can_grow_on_filter": {
       "type": "minecraft:matching_block_tag",
       "tag": "midgard:surface_blocks"
@@ -21,7 +22,7 @@
     "leaves_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:spruce_leaves",
+        "Name": "minecraft:dark_oak_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",
@@ -29,7 +30,9 @@
         }
       }
     },
-    "leaves_target": [],
+    "leaves_target": [
+      "minecraft:dark_oak_leaves"
+    ],
     "log_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
@@ -39,7 +42,12 @@
         }
     }
     },
-    "log_target": [],
+    "log_target": [
+      "midgard:dark_oak_trunk",
+      "midgard:dark_oak_branch",
+      "minecraft:dark_oak_log",
+      "minecraft:dark_oak_wood"
+    ],
     "place_from_nbt": [
       "midgard:dark_oak_trunk",
       "midgard:dark_oak_branch",

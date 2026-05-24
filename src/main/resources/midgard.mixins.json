@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.sbeev.midgard.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "midgard.refmap.json",
+  "mixins": [
+    "TreeFromStructureNBTFeatureMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

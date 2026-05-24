@@ -3,14 +3,20 @@
   "config": {
     "base_location": "ohthetreesyoullgrow:features/trees/blank_trunk",
     "canopy_location": "ohthetreesyoullgrow:features/trees/yellow_maple_tree/shrubby_yellow_maple_tree_canopy2",
+    "random_rotation": true,
     "can_grow_on_filter": {
       "type": "minecraft:matching_block_tag",
       "tag": "midgard:surface_blocks"
     },
     "can_leaves_place_filter": {
       "type": "minecraft:replaceable"
-    }, 
-    "decorators": [],
+    },
+    "decorators": [
+      {
+        "type": "minecraft:beehive",
+        "probability": 0.01
+      }
+    ],
     "height": {
       "type": "minecraft:uniform",
       "value": {
@@ -21,7 +27,7 @@
     "leaves_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:spruce_leaves",
+        "Name": "midgard:yellow_maple_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",
@@ -29,7 +35,9 @@
         }
       }
     },
-    "leaves_target": [],
+    "leaves_target": [
+      "midgard:yellow_maple_leaves"
+    ],
     "log_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
@@ -39,7 +47,12 @@
         }
     }
     },
-    "log_target": [],
+    "log_target": [
+      "midgard:maple_trunk",
+      "midgard:maple_branch",
+      "midgard:maple_log",
+      "midgard:maple_wood"
+    ],
     "place_from_nbt": [
         "midgard:maple_trunk",
         "midgard:maple_branch",

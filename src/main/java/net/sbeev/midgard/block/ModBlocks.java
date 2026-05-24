@@ -10,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.grower.BirchTreeGrower;
+import net.minecraft.world.level.block.grower.DarkOakTreeGrower;
 import net.minecraft.world.level.block.grower.OakTreeGrower;
 import net.minecraft.world.level.block.grower.SpruceTreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -70,7 +71,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHISELED_SANDSTONE)));
 
     public static final RegistryObject<Block> SHRUB = registerBlock("shrub",
-            () -> new DeadBushBlock(BlockBehaviour.Properties.copy(Blocks.FERN).noOcclusion().sound(SoundType.GRASS)));
+            () -> new BushBlock(BlockBehaviour.Properties.copy(Blocks.FERN).noOcclusion().sound(SoundType.GRASS)));
     public static final RegistryObject<Block> BEACH_GRASS = registerBlock("beach_grass",
             () -> new DeadBushBlock(BlockBehaviour.Properties.copy(Blocks.DEAD_BUSH).noOcclusion().sound(SoundType.GRASS)));
 
@@ -206,6 +207,15 @@ public class ModBlocks {
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> CHERRY_BRANCH = registerBlock("cherry_branch",
             () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+
+    public static final RegistryObject<Block> REALISTIC_OAK_SAPLING = registerBlock("realistic_oak_sapling",
+            () -> new SaplingBlock(new OakTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> REALISTIC_BIRCH_SAPLING = registerBlock("realistic_birch_sapling",
+            () -> new SaplingBlock(new BirchTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> REALISTIC_SPRUCE_SAPLING = registerBlock("realistic_spruce_sapling",
+            () -> new SaplingBlock(new SpruceTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> REALISTIC_DARK_OAK_SAPLING = registerBlock("realistic_dark_oak_sapling",
+            () -> new SaplingBlock(new DarkOakTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> PINE_LOG = registerBlock("pine_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(3f)));
@@ -374,6 +384,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ASPEN_LOG = registerBlock("aspen_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(3f)));
+    public static final RegistryObject<Block> ROUGH_ASPEN_LOG = registerBlock("rough_aspen_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(3f)));
+    public static final RegistryObject<Block> FURROWED_ASPEN_LOG = registerBlock("furrowed_aspen_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(3f)));
     public static final RegistryObject<Block> ASPEN_WOOD = registerBlock("aspen_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(3f)));
     public static final RegistryObject<Block> STRIPPED_ASPEN_LOG = registerBlock("stripped_aspen_log",
@@ -439,9 +453,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ASPEN_TRUNK = registerBlock("aspen_trunk",
             () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ROUGH_ASPEN_TRUNK = registerBlock("rough_aspen_trunk",
+            () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> FURROWED_ASPEN_TRUNK = registerBlock("furrowed_aspen_trunk",
+            () -> new StrippedWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> STRIPPED_ASPEN_TRUNK = registerBlock("stripped_aspen_trunk",
             () -> new FlammableWallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> ASPEN_BRANCH = registerBlock("aspen_branch",
+            () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ROUGH_ASPEN_BRANCH = registerBlock("rough_aspen_branch",
             () -> new BranchFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> ASPEN_FENCE = registerBlock("aspen_fence",

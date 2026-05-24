@@ -1,16 +1,34 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "midgard:block/aspen/aspen_log_horizontal",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
-      "model": "midgard:block/aspen/aspen_log"
-    },
-    "axis=z": {
-      "model": "midgard:block/aspen/aspen_log_horizontal",
-      "x": 90
-    }
+    "axis=x": [
+        {
+          "model": "midgard:block/aspen/aspen_log_horizontal_0",
+          "x": 90,
+          "y": 90
+        },
+        {
+          "model": "midgard:block/aspen/aspen_log_horizontal_1",
+          "x": 90,
+          "y": 90
+        }
+      ],
+    "axis=y": [
+        {
+          "model": "midgard:block/aspen/aspen_log_0"
+        },
+        {
+          "model": "midgard:block/aspen/aspen_log_1"
+        }
+    ],
+    "axis=z": [
+        {
+          "model": "midgard:block/aspen/aspen_log_horizontal_0",
+          "x": 90
+        },
+      {
+        "model": "midgard:block/aspen/aspen_log_horizontal_1",
+        "x": 90
+      }
+      ]
   }
 }

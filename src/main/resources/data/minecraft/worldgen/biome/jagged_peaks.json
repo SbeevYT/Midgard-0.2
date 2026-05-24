@@ -17,7 +17,8 @@
     },
     "sky_color": 8233727,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "grass_color": 12959322
   },
   "features": [
     [],
@@ -79,7 +80,8 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      
+
+      "midgard:jagged_peaks/jagged_peaks_snow_layer_patch",
       "midgard:jagged_peaks/jagged_peaks_sparse_cone_spruce_tree_5",
       "midgard:jagged_peaks/jagged_peaks_sparse_small_spike_spruce_tree_2",
       "midgard:jagged_peaks/jagged_peaks_sparse_small_spike_spruce_tree_4"

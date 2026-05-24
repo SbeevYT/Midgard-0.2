@@ -48,6 +48,8 @@
   "block.midgard.white_pine_sapling": "White Pine Sapling",
 
   "block.midgard.aspen_log": "Aspen Log",
+  "block.midgard.rough_aspen_log": "Rough Aspen Log",
+  "block.midgard.furrowed_aspen_log": "Furrowed Aspen Log",
   "block.midgard.stripped_aspen_log": "Stripped Aspen Log",
   "block.midgard.aspen_wood": "Aspen Wood",
   "block.midgard.stripped_aspen_wood": "Stripped Aspen Wood",
@@ -61,8 +63,11 @@
   "block.midgard.aspen_door": "Aspen Door",
   "block.midgard.aspen_trapdoor": "Aspen Trapdoor",
   "block.midgard.aspen_trunk": "Aspen Trunk",
+  "block.midgard.rough_aspen_trunk": "Rough Aspen Trunk",
+  "block.midgard.furrowed_aspen_trunk": "Furrowed Aspen Trunk",
   "block.midgard.stripped_aspen_trunk": "Stripped Aspen Trunk",
   "block.midgard.aspen_branch": "Aspen Branch",
+  "block.midgard.rough_aspen_branch": "Rough Aspen Branch",
   "block.midgard.aspen_sign": "Aspen Sign",
   "block.midgard.aspen_hanging_sign": "Hanging Aspen Sign",
   "block.midgard.aspen_leaves": "Aspen Leaves",
@@ -125,5 +130,28 @@
   "block.midgard.stripped_cherry_trunk": "Stripped Cherry Trunk",
   "block.midgard.cherry_branch": "Cherry Branch",
 
-  "creativetab.midgard_tab": "Midgard"
+  "block.midgard.realistic_oak_sapling": "Realistic Oak Sapling",
+  "block.midgard.realistic_birch_sapling": "Realistic Birch Sapling",
+  "block.midgard.realistic_spruce_sapling": "Realistic Spruce Sapling",
+  "block.midgard.realistic_dark_oak_sapling": "Realistic Dark Oak Sapling",
+
+  "creativetab.midgard_tab": "Midgard",
+
+  "biome.midgard.aspen_forest": "Aspen Forest",
+  "biome.midgard.autumnal_aspen_forest": "Autumnal Aspen Forest",
+  "biome.midgard.autumnal_maple_forest": "Autumnal Maple Forest",
+  "biome.midgard.boreal_forest": "Boreal Forest",
+  "biome.midgard.clearing": "Clearing",
+  "biome.midgard.desert_shrubland": "Desert Shrubland",
+  "biome.midgard.forest_edge": "Forest Edge",
+  "biome.midgard.maple_forest": "Maple Forest",
+  "biome.midgard.pine_forest": "Pine Forest",
+  "biome.midgard.riverbank": "Riverbank",
+  "biome.midgard.snowy_windswept_hills": "Snowy Windswept Hills",
+  "biome.midgard.sparse_aspen_forest": "Sparse Aspen Forest",
+  "biome.midgard.sparse_autumnal_aspen_forest": "Sparse Autumnal Aspen Forest",
+  "biome.midgard.sparse_pine_forest": "Sparse Pine Forest",
+  "biome.midgard.steppe": "Steppe",
+  "biome.midgard.westlands": "Westlands",
+  "biome.midgard.white_shore": "White Shore"
 }

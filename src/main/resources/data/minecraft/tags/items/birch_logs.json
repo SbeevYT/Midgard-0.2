@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:birch_log",
+    "minecraft:birch_wood",
+    "minecraft:stripped_birch_log",
+    "minecraft:stripped_birch_wood",
+    "midgard:birch_trunk",
+    "midgard:stripped_birch_trunk",
+    "midgard:birch_branch"
+  ]
+}

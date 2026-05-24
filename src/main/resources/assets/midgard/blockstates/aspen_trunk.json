@@ -1,87 +1,146 @@
 {
   "multipart": [
     {
-      "apply": {
-        "model": "midgard:block/aspen/aspen_trunk_post"
-        },
+      "apply": [
+          {
+            "model": "midgard:block/aspen/aspen_trunk_post_0"
+          },
+          {
+            "model": "midgard:block/aspen/aspen_trunk_post_1"
+          }
+        ],
         "when": {
           "up": "true"
         }
     },
     {
-      "apply": {
-        "model": "midgard:block/aspen/aspen_trunk_side",
-        "uvlock": true,
-        "y": 90
-      },
+      "apply": [
+          {
+            "model": "midgard:block/aspen/aspen_trunk_side_0",
+            "uvlock": true,
+            "y": 90
+          },
+          {
+            "model": "midgard:block/aspen/aspen_trunk_side_1",
+            "uvlock": true,
+            "y": 90
+          }
+        ],
       "when": {
         "east": "low"
       }
     },
     {
-      "apply": {
-        "model": "midgard:block/aspen/aspen_trunk_side_tall",
-        "uvlock": true,
-        "y": 90
-      },
+      "apply": [
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_tall_0",
+          "uvlock": true,
+          "y": 90
+        },
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_tall_1",
+          "uvlock": true,
+          "y": 90
+        }
+      ],
       "when": {
         "east": "tall"
       }
     },
     {
-      "apply": {
-        "model": "midgard:block/aspen/aspen_trunk_side",
-        "uvlock": true
-      },
+      "apply": [
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_0",
+          "uvlock": true
+        },
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_1",
+          "uvlock": true
+        }
+      ],
       "when": {
         "north": "low"
       }
     },
     {
-      "apply": {
-        "model": "midgard:block/aspen/aspen_trunk_side_tall",
-        "uvlock": true
-      },
+      "apply": [
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_tall_0",
+          "uvlock": true
+        },
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_tall_1",
+          "uvlock": true
+        }
+      ],
       "when": {
         "north": "tall"
       }
     },
     {
-      "apply": {
-        "model": "midgard:block/aspen/aspen_trunk_side",
-        "uvlock": true,
-        "y": 180
-      },
+      "apply": [
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_0",
+          "uvlock": true,
+          "y": 180
+        },
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_1",
+          "uvlock": true,
+          "y": 180
+        }
+      ],
       "when": {
         "south": "low"
       }
     },
     {
-      "apply": {
-        "model": "midgard:block/aspen/aspen_trunk_side_tall",
-        "uvlock": true,
-        "y": 180
-      },
+      "apply": [
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_tall_0",
+          "uvlock": true,
+          "y": 180
+        },
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_tall_1",
+          "uvlock": true,
+          "y": 180
+        }
+      ],
       "when": {
         "south": "tall"
       }
     },
     {
-      "apply": {
-        "model": "midgard:block/aspen/aspen_trunk_side",
-        "uvlock": true,
-        "y": 270
-      },
+      "apply": [
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_0",
+          "uvlock": true,
+          "y": 270
+        },
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_1",
+          "uvlock": true,
+          "y": 270
+        }
+      ],
       "when": {
         "west": "low"
       }
     },
     {
-      "apply": {
-        "model": "midgard:block/aspen/aspen_trunk_side_tall",
-        "uvlock": true,
-        "y": 270
-      },
+      "apply": [
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_tall_0",
+          "uvlock": true,
+          "y": 270
+        },
+        {
+          "model": "midgard:block/aspen/aspen_trunk_side_tall_1",
+          "uvlock": true,
+          "y": 270
+        }
+      ],
       "when": {
         "west": "tall"
       }

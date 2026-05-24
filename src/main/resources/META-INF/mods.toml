@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/SbeevYT/Midgard-0.2/issues"
 
 [[mods]] #mandatory
 modId="midgard" #mandatory
-version="0.1" #mandatory
+version="1.1" #mandatory
 displayName="Midgard" #mandatory
 authors="Sbeev" #optional
 description='''A total biome overhaul'''
@@ -40,6 +40,9 @@ mandatory = true
 versionRange = "[1.20,1.21)"
 ordering = "NONE"
 side = "CLIENT"
+
+[[mixins]]
+config="midgard.mixins.json"
 
 
 
